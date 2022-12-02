@@ -1,0 +1,251 @@
+<!-- sumber : https://www.w3schools.com/html/html_table_colspan_rowspan.asp -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+  <!-- 
+    colspan atribut mewakili jumlah kolom yang akan direntang.
+    rowspan atribut mewakili jumlah baris yang akan direntang.
+   -->
+<h2>Cell that spans two columns</h2>
+<p>To make a cell span more than one column, use the colspan attribute.</p>
+
+<table style="width:100%">
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>43</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>57</td>
+  </tr>
+</table>
+
+
+<br/>
+<h2>Cell that spans two rows</h2>
+<p>To make a cell span more than one row, use the rowspan attribute.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <td>Jill</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Phone</th>
+    <td>555-1234</td>
+  </tr>
+  <tr>
+    <td>555-8745</td>
+  </tr>
+</table>
+</body>
+</html>
+
+<!-- task 1 -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Buyphone|Menjual Smartphone Original</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div style="background-color:black;text-align:center;">
+        <h1 style="color:white;">IPHONE</h1>
+    </div>
+    <h1 style="text-transform:uppercase;font-family:calibri;">Spesifikasi Iphone 11 <span style="color:#5eaaa8;">(Green)</span></h1>
+    <table>
+        <tr>
+            <td rowspan="5" style="background-color: white;">
+                <img src="images/iphone-detail.png" alt="Iphone 11 Green">
+            </td>
+            <th>Platform</th>
+            <td></td>
+        </tr>
+        <tr>
+            <th>OS</th>
+            <td>iOS 13, upgradable to iOS 14.4</td>
+        </tr>
+        <tr>
+            <th>Chipset</th>
+            <td>Apple A13 Bionic (7 nm+)</td>
+        </tr>
+        <tr>
+            <th>CPU</th>
+            <td>Hexa-core (2x2.65 GHz Lightning + 4x1.8 GHz Thunder)</td>
+        </tr>
+        <tr>
+            <th>GPU</th>
+            <td>Apple GPU (4-core graphics)</td>
+        </tr>
+    </table>
+</body>
+</html> -->
+<!-- task 2 -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Buyphone|Menjual Smartphone Original</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div style="background-color:black;text-align:center;">
+        <h1 style="color:white;">IPHONE</h1>
+    </div>
+    <h1 style="text-transform:uppercase;font-family:calibri;">Spesifikasi Iphone 11 <span style="color:#5eaaa8;">(Green)</span></h1>
+    <table>
+        <tr>
+            <td rowspan="5" style="background-color: white;">
+            <img src="images/iphone-detail.png" style="width: 400px;">
+            </td>
+            <th>Platform</th>
+            <td></td>
+        </tr>
+        <tr>
+            <th>OS</th>
+            <td>iOS 13, upgradable to iOS 14.4</td>
+        </tr>
+        <tr>
+            <th>Chipset</th>
+            <td>Apple A13 Bionic (7 nm+)</td>
+        </tr>
+        <tr>
+            <th>CPU</th>
+            <td>Hexa-core (2x2.65 GHz Lightning + 4x1.8 GHz Thunder)</td>
+        </tr>
+        <tr>
+            <th>GPU</th>
+            <td>Apple GPU (4-core graphics)</td>
+        </tr>
+    </table>
+</body>
+</html> -->
+<!-- task 3 -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buyphone|Menjual Smartphone Original</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div style="background-color:black;text-align:center;">
+        <h1 style="color:white;">IPHONE</h1>
+    </div>
+    <h1 style="text-transform:uppercase;font-family:calibri;">Spesifikasi Iphone 11 <span style="color:#5eaaa8;">(Green)</span></h1>
+    <table>
+        <tr>
+            <td rowspan="5" style="background-color: white;">
+            <img src="images/iphone-detail.png" style="width: 400px;">
+            </td>
+            <th colspan="2" style="font-size: 45px;">Platform</th>
+        </tr>
+        <tr>
+            <th >OS</th>
+            <td>iOS 13, upgradable to iOS 14.4</td>
+        </tr>
+        <tr>
+            <th>Chipset</th>
+            <td>Apple A13 Bionic (7 nm+)</td>
+        </tr>
+        <tr>
+            <th>CPU</th>
+            <td>Hexa-core (2x2.65 GHz Lightning + 4x1.8 GHz Thunder)</td>
+        </tr>
+        <tr>
+            <th>GPU</th>
+            <td>Apple GPU (4-core graphics)</td>
+        </tr>
+    </table>
+</body>
+</html>
+<!-- task 4 -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Buyphone|Menjual Smartphone Original</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div style="background-color:black;text-align:center;">
+        <h1 style="color:white;">IPHONE</h1>
+    </div>
+    <h1 style="text-transform:uppercase;font-family:calibri;">Spesifikasi Iphone 11 <span style="color:#5eaaa8;">(Green)</span></h1>
+    <table>
+        <tr>
+            <td rowspan="5" style="background-color: white;">
+            <img src="images/iphone-detail.png" style="width: 400px;">
+            </td>
+            <th colspan="2" style="font-size: 45px;">Platform</th>
+        </tr>
+        <tr>
+            <th >OS</th>
+            <td>iOS 13, upgradable to iOS 14.4</td>
+        </tr>
+        <tr>
+            <th>Chipset</th>
+            <td>Apple A13 Bionic (7 nm+)</td>
+        </tr>
+        <tr>
+            <th>CPU</th>
+            <td>Hexa-core (2x2.65 GHz Lightning + 4x1.8 GHz Thunder)</td>
+        </tr>
+        <tr>
+            <th>GPU</th>
+            <td>Apple GPU (4-core graphics)</td>
+        </tr>
+    </table>
+    <div style="background-color: black; width: 200px; text-align: center;"><a href="https://www.apple.com/shop/buy-iphone/iphone-11#mn_e">Beli</a></div>
+</body>
+</html> -->
+<!-- task 5 -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Buyphone|Menjual Smartphone Original</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div style="background-color:black;text-align:center;">
+        <h1 style="color:white;">IPHONE</h1>
+    </div>
+    <h1 style="text-transform:uppercase;font-family:calibri;">Spesifikasi Iphone 11 <span style="color:#5eaaa8;">(Green)</span></h1>
+    <table>
+        <tr>
+            <td rowspan="5" style="background-color: white;">
+            <img src="images/iphone-detail.png" style="width: 400px;">
+            </td>
+            <th colspan="2" style="font-size: 45px;">Platform</th>
+        </tr>
+        <tr>
+            <th >OS</th>
+            <td>iOS 13, upgradable to iOS 14.4</td>
+        </tr>
+        <tr>
+            <th>Chipset</th>
+            <td>Apple A13 Bionic (7 nm+)</td>
+        </tr>
+        <tr>
+            <th>CPU</th>
+            <td>Hexa-core (2x2.65 GHz Lightning + 4x1.8 GHz Thunder)</td>
+        </tr>
+        <tr>
+            <th>GPU</th>
+            <td>Apple GPU (4-core graphics)</td>
+        </tr>
+    </table>
+    <div style="background-color: black; width: 200px; text-align: center;"><a href="https://www.apple.com/shop/buy-iphone/iphone-11#mn_e" style="color: white; font-size: 40px; text-decoration: none;">Beli</a></div>
+</body>
+</html> -->

@@ -1,0 +1,512 @@
+<!--
+sumber :https://www.w3schools.com/tags/tag_div.ASP
+        https://www.w3schools.com/csSref/pr_class_float.php
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <style>
+      .myDiv1 {
+        border: 5px outset red;
+        background-color: lightcoral !important;
+        text-align: center;
+      }
+      .myDiv2 {
+        border: 5px outset green;
+        background-color: lightgreen;
+        text-align: center;
+      }
+      .myDiv3 {
+        border: 5px outset blue;
+        background-color: lightblue;
+        text-align: center;
+      }
+      img {
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+    Tag div mendefinisikan divisi atau bagian dalam dokumen HTML.
+    dan untuk mengkelompokan banyak elemnt dalam satu div kita mengunahkan nested div
+    Properti float menentukan apakah suatu elemen harus melayang ke kiri, kanan, atau tidak sama sekali.
+    -->
+    <h1>The div element</h1>
+
+    <div class="myDiv1">
+      <h2>This is a heading in a div element</h2>
+      <p>This is some text in a div element.</p>
+    </div>
+    <br>
+    <div class="myDiv2">
+      <h2>This is a heading in a div element</h2>
+      <p>This is some text in a div element.</p>
+    </div>
+    <br>
+    <div class="myDiv3">
+      <h2>This is a heading in a div element</h2>
+      <p>This is some text in a div element.</p>
+    </div>
+
+    <br />
+    <h1>Nested Div</h1>
+    <div class="myDiv1">
+      <h2>This is a heading in a div element</h2>
+      <div class="myDiv2">
+        <p>This is some text in a div element.</p>
+        <div class="myDiv3">
+          <a href="#">lorem</a>
+        </div>
+      </div>
+    </div>
+
+    <p>
+      <img
+        src="img/pineapple.jpg"
+        alt="Pineapple"
+        style="width: 170px; height: 170px; margin-left: 15px"
+      />
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+      scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+      congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.
+      Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent
+      convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis
+      dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc
+      venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+      venenatis. Integer fringilla congue eros non fermentum. Sed dapibus
+      pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+    </p>
+  </body>
+</html>
+
+<!-- div float practice -->
+
+<!-- taks 1 -->
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>Homie|Home Cleaning Service</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <h1 style="text-transform:uppercase;font-size:45px;">About us</h1>
+        <div>
+            <h2>Kenapa harus <span style="font-family:cursive;color:teal;font-size:40px;">Homie</span>?</h2>
+        <p>
+            Homie adalah layanan home cleaning pertama yang berani menawarkan jadwal fleksibel dan tentunya menjamin kualitas kenyamanan anda diatas segalanya
+        </p>
+        </div>
+        <h2>Bagaimana cara menggunakan jasa <span style="font-family:cursive;color:teal;font-size:40px;">Homie</span>?</h2>
+        <p>
+            Lakukan semuanya dengan satu klik. Klik <a href="https://www.homie.site/chat/" style="font-size:30px;color:royalblue;">Chat Me</a> dan pilih layanan kebersihan yang kamu inginkan. Setelah itu <i>cleaning service</i> akan langsung berangkat!
+        </p>
+        <h2>Layanan kebersihan apa saja yang disediakan oleh <span style="font-family:cursive;color:teal;font-size:40px;">Homie</span>?</h2>
+        <ol>
+            <li>Jasa Pembersih</li>
+            <li>Service AC</li>
+            <li>Cuci Barang</li>
+            <li>Jasa Disinfektan</li>
+            <li>Jasa Vakum</li>
+        </ol>
+    </body>
+</html> -->
+<!-- taks 2 -->
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>Homie|Home Cleaning Service</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <h1 style="text-transform:uppercase;font-size:45px;">About us</h1>
+        <div>
+            <h2>Kenapa harus <span style="font-family:cursive;color:teal;font-size:40px;">Homie</span>?</h2>
+        <p>
+            Homie adalah layanan home cleaning pertama yang berani menawarkan jadwal fleksibel dan tentunya menjamin kualitas kenyamanan anda diatas segalanya
+        </p>
+        </div>
+        <div>
+                  <h2>Bagaimana cara menggunakan jasa <span style="font-family:cursive;color:teal;font-size:40px;">Homie</span>?</h2>
+        <p>
+            Lakukan semuanya dengan satu klik. Klik <a href="https://www.homie.site/chat/" style="font-size:30px;color:royalblue;">Chat Me</a> dan pilih layanan kebersihan yang kamu inginkan. Setelah itu <i>cleaning service</i> akan langsung berangkat!
+        </p>  
+        </div>
+
+        <h2>Layanan kebersihan apa saja yang disediakan oleh <span style="font-family:cursive;color:teal;font-size:40px;">Homie</span>?</h2>
+        <ol>
+            <li>Jasa Pembersih</li>
+            <li>Service AC</li>
+            <li>Cuci Barang</li>
+            <li>Jasa Disinfektan</li>
+            <li>Jasa Vakum</li>
+        </ol>
+    </body>
+</html> -->
+<!-- taks 3 -->
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Homie|Home Cleaning Service</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <h1 style="text-transform: uppercase; font-size: 45px">About us</h1>
+    <div>
+      <h2>
+        Kenapa harus
+        <span style="font-family: cursive; color: teal; font-size: 40px"
+          >Homie</span
+        >?
+      </h2>
+      <p>
+        Homie adalah layanan home cleaning pertama yang berani menawarkan jadwal
+        fleksibel dan tentunya menjamin kualitas kenyamanan anda diatas
+        segalanya
+      </p>
+    </div>
+    <div>
+      <h2>
+        Bagaimana cara menggunakan jasa
+        <span style="font-family: cursive; color: teal; font-size: 40px"
+          >Homie</span
+        >?
+      </h2>
+      <p>
+        Lakukan semuanya dengan satu klik. Klik
+        <a
+          href="https://www.homie.site/chat/"
+          style="font-size: 30px; color: royalblue"
+          >Chat Me</a
+        >
+        dan pilih layanan kebersihan yang kamu inginkan. Setelah itu
+        <i>cleaning service</i> akan langsung berangkat!
+      </p>
+    </div>
+    <div>
+      <h2>
+        Layanan kebersihan apa saja yang disediakan oleh
+        <span style="font-family: cursive; color: teal; font-size: 40px"
+          >Homie</span
+        >?
+      </h2>
+      <ol>
+        <li>Jasa Pembersih</li>
+        <li>Service AC</li>
+        <li>Cuci Barang</li>
+        <li>Jasa Disinfektan</li>
+        <li>Jasa Vakum</li>
+      </ol>
+    </div>
+  </body>
+</html> -->
+<!-- taks 4 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homie|Home Cleaning Service</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <h1 style="text-transform:uppercase;font-size:45px;">About us</h1>
+        <div>
+            <h2>Kenapa harus <span style="font-family:cursive;color:teal;font-size:40px;">Homie</span>?</h2>
+        <p>
+            Homie adalah layanan home cleaning pertama yang berani menawarkan jadwal fleksibel dan tentunya menjamin kualitas kenyamanan anda diatas segalanya
+        </p>
+        </div>
+        <div>
+                  <h2>Bagaimana cara menggunakan jasa <span style="font-family:cursive;color:teal;font-size:40px;">Homie</span>?</h2>
+        <p>
+            Lakukan semuanya dengan satu klik. Klik <a href="https://www.homie.site/chat/" style="font-size:30px;color:royalblue;">Chat Me</a> dan pilih layanan kebersihan yang kamu inginkan. Setelah itu <i>cleaning service</i> akan langsung berangkat!
+        </p>  
+        </div>
+<div>
+           <h2>Layanan kebersihan apa saja yang disediakan oleh <span style="font-family:cursive;color:teal;font-size:40px;">Homie</span>?</h2>
+        <ol>
+            <li>Jasa Pembersih</li>
+            <li>Service AC</li>
+            <li>Cuci Barang</li>
+            <li>Jasa Disinfektan</li>
+            <li>Jasa Vakum</li>
+        </ol> 
+</div>
+<div>
+    <h3>Homie team</h3>
+    <img src="images/cleaning_service.jpg">
+</div>
+
+    </body>
+</html>
+<!-- taks 5 -->
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>Homie|Home Cleaning Service</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <h1 style="text-transform:uppercase;font-size:45px;">About us</h1>
+        <div>
+            <h2>Kenapa harus <span style="font-family:cursive;color:teal;font-size:40px;">Homie</span>?</h2>
+        <p>
+            Homie adalah layanan home cleaning pertama yang berani menawarkan jadwal fleksibel dan tentunya menjamin kualitas kenyamanan anda diatas segalanya
+        </p>
+        </div>
+        <div>
+                  <h2>Bagaimana cara menggunakan jasa <span style="font-family:cursive;color:teal;font-size:40px;">Homie</span>?</h2>
+        <p>
+            Lakukan semuanya dengan satu klik. Klik <a href="https://www.homie.site/chat/" style="font-size:30px;color:royalblue;">Chat Me</a> dan pilih layanan kebersihan yang kamu inginkan. Setelah itu <i>cleaning service</i> akan langsung berangkat!
+        </p>  
+        </div>
+<div>
+           <h2>Layanan kebersihan apa saja yang disediakan oleh <span style="font-family:cursive;color:teal;font-size:40px;">Homie</span>?</h2>
+        <ol>
+            <li>Jasa Pembersih</li>
+            <li>Service AC</li>
+            <li>Cuci Barang</li>
+            <li>Jasa Disinfektan</li>
+            <li>Jasa Vakum</li>
+        </ol> 
+</div>
+<div>
+    <h3 style="font-size: 30px; text-transform: capitalize;">Homie team</h3>
+    <img src="images/cleaning_service.jpg">
+</div>
+
+    </body>
+</html> -->
+<!-- taks 6 -->
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>Homie|Home Cleaning Service</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <h1 style="text-transform:uppercase;font-size:45px;">About us</h1>
+        <div>
+            <h2>Kenapa harus <span style="font-family:cursive;color:teal;font-size:40px;">Homie</span>?</h2>
+        <p>
+            Homie adalah layanan home cleaning pertama yang berani menawarkan jadwal fleksibel dan tentunya menjamin kualitas kenyamanan anda diatas segalanya
+        </p>
+        </div>
+        <div>
+                  <h2>Bagaimana cara menggunakan jasa <span style="font-family:cursive;color:teal;font-size:40px;">Homie</span>?</h2>
+        <p>
+            Lakukan semuanya dengan satu klik. Klik <a href="https://www.homie.site/chat/" style="font-size: 30px; color: royalblue; text-decoration: none;"></a> dan pilih layanan kebersihan yang kamu inginkan. Setelah itu <i>cleaning service</i> akan langsung berangkat!
+        </p>  
+        </div>
+<div>
+           <h2>Layanan kebersihan apa saja yang disediakan oleh <span style="font-family:cursive;color:teal;font-size:40px;">Homie</span>?</h2>
+        <ol>
+            <li>Jasa Pembersih</li>
+            <li>Service AC</li>
+            <li>Cuci Barang</li>
+            <li>Jasa Disinfektan</li>
+            <li>Jasa Vakum</li>
+        </ol> 
+</div>
+<div>
+    <h3 style="font-size: 30px; text-transform: capitalize;">Homie team</h3>
+    <img src="images/cleaning_service.jpg">
+</div>
+
+    </body>
+</html> -->
+
+<!-- nested div -->
+
+<!-- taks 1 -->
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>Homie|Home Cleaning Service</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <h1 style="text-transform:uppercase;font-size:45px;">Pembayaran</h1>
+        <div style="background-color:white;">
+            <p>Terimakasih telah berkunjung dan menggunakan jasa kami! Homie menyediakan beberapa media transaksi. Gunakan saja salah satunya!</p>
+        </div>
+<div style="background-color: aliceblue; text-align: center;">
+                <h2 style="text-transform:uppercase;font-size:37px;text-align:right;">Total= <span style="color:dodgerblue;">150.000,-</span></h2>
+            <h3 style="text-transform:uppercase;font-size:30px;">Pilih sesukamu</h3>
+        </div>
+    </body>
+</html> -->
+<!-- taks 2 -->
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Homie|Home Cleaning Service</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <h1 style="text-transform: uppercase; font-size: 45px">Pembayaran</h1>
+    <div style="background-color: white">
+      <p>
+        Terimakasih telah berkunjung dan menggunakan jasa kami! Homie
+        menyediakan beberapa media transaksi. Gunakan saja salah satunya!
+      </p>
+    </div>
+    <div style="background-color: aliceblue; text-align: center">
+      <h2 style="text-transform: uppercase; font-size: 37px; text-align: right">
+        Total= <span style="color: dodgerblue">150.000,-</span>
+      </h2>
+      <h3 style="text-transform: uppercase; font-size: 30px">Pilih sesukamu</h3>
+    </div>
+    <div style="background-color: gainsboro">
+      <img src="images/emoney.jpg" />
+      <a href="https://www.homie.site/emoney/">Transfer</a>
+    </div>
+  </body>
+</html> -->
+<!-- taks 3 -->
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Homie|Home Cleaning Service</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <h1 style="text-transform: uppercase; font-size: 45px">Pembayaran</h1>
+    <div style="background-color: white">
+      <p>
+        Terimakasih telah berkunjung dan menggunakan jasa kami! Homie
+        menyediakan beberapa media transaksi. Gunakan saja salah satunya!
+      </p>
+    </div>
+    <div style="background-color: gainsboro">
+      <img src="images/bank.jpg" />
+      <a href="https://www.homie.site/bank/">Transfer</a>
+      <h2 style="text-transform: uppercase; font-size: 37px; text-align: right">
+        Total= <span style="color: dodgerblue">150.000,-</span>
+      </h2>
+      <h3 style="text-transform: uppercase; font-size: 30px">Pilih sesukamu</h3>
+    </div>
+    <div style="background-color: gainsboro">
+      <img src="images/emoney.jpg" />
+      <a href="https://www.homie.site/emoney/">Transfer</a>
+    </div>
+  </body>
+</html> -->
+<!-- taks 4 -->
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Homie|Home Cleaning Service</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <h1 style="text-transform: uppercase; font-size: 45px">Pembayaran</h1>
+    <div style="background-color: gainsboro">
+      <img src="images/minimart.jpg" />
+      <a href="https://www.homie.site/minimart/">Transfer</a>
+      <p>
+        Terimakasih telah berkunjung dan menggunakan jasa kami! Homie
+        menyediakan beberapa media transaksi. Gunakan saja salah satunya!
+      </p>
+    </div>
+    <div style="background-color: gainsboro">
+      <img src="images/bank.jpg" />
+      <a href="https://www.homie.site/bank/">Transfer</a>
+      <h2 style="text-transform: uppercase; font-size: 37px; text-align: right">
+        Total= <span style="color: dodgerblue">150.000,-</span>
+      </h2>
+      <h3 style="text-transform: uppercase; font-size: 30px">Pilih sesukamu</h3>
+    </div>
+    <div style="background-color: gainsboro">
+      <img src="images/emoney.jpg" />
+      <a href="https://www.homie.site/emoney/">Transfer</a>
+    </div>
+  </body>
+</html> -->
+<!-- taks 5 -->
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Homie|Home Cleaning Service</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <h1 style="text-transform: uppercase; font-size: 45px">Pembayaran</h1>
+    <div style="background-color: gainsboro">
+      <img src="images/minimart.jpg" />
+      <div style="background-color: gold">
+        <a href="https://www.homie.site/minimart/">Transfer</a>
+      </div>
+      <p>
+        Terimakasih telah berkunjung dan menggunakan jasa kami! Homie
+        menyediakan beberapa media transaksi. Gunakan saja salah satunya!
+      </p>
+    </div>
+    <div style="background-color: gainsboro">
+      <img src="images/bank.jpg" />
+      <div style="background-color: gold">
+        <a href="https://www.homie.site/bank/">Transfer</a>
+      </div>
+      <h2 style="text-transform: uppercase; font-size: 37px; text-align: right">
+        Total= <span style="color: dodgerblue">150.000,-</span>
+      </h2>
+      <h3 style="text-transform: uppercase; font-size: 30px">Pilih sesukamu</h3>
+    </div>
+    <div style="background-color: gainsboro">
+      <img src="images/emoney.jpg" />
+      <div style="background-color: gold">
+        <a href="https://www.homie.site/emoney/">Transfer</a>
+      </div>
+    </div>
+  </body>
+</html> -->
+<!-- taks 6 -->
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Homie|Home Cleaning Service</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <h1 style="text-transform: uppercase; font-size: 45px">Pembayaran</h1>
+    <div style="background-color: gainsboro">
+      <img src="images/minimart.jpg" />
+      <div style="background-color: gold">
+        <a
+          href="https://www.homie.site/emoney/"
+          style="text-decoration: none; color: black"
+          >Transfer</a
+        >
+      </div>
+      <p>
+        Terimakasih telah berkunjung dan menggunakan jasa kami! Homie
+        menyediakan beberapa media transaksi. Gunakan saja salah satunya!
+      </p>
+    </div>
+    <div style="background-color: gainsboro">
+      <img src="images/bank.jpg" />
+      <div style="background-color: gold">
+        <a
+          href="https://www.homie.site/bank/"
+          style="text-decoration: none; color: black"
+          >Transfer</a
+        >
+      </div>
+      <h2 style="text-transform: uppercase; font-size: 37px; text-align: right">
+        Total= <span style="color: dodgerblue">150.000,-</span>
+      </h2>
+      <h3 style="text-transform: uppercase; font-size: 30px">Pilih sesukamu</h3>
+    </div>
+    <div style="background-color: gainsboro">
+      <img src="images/emoney.jpg" />
+      <div style="background-color: gold">
+        <a
+          href="https://www.homie.site/minimart/"
+          style="text-decoration: none; color: black"
+          >Transfer</a
+        >
+      </div>
+    </div>
+  </body>
+</html> -->

@@ -1,0 +1,315 @@
+<!-- sumber : https://www.w3schools.com/css/css_table_align.asp -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid black;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      .baris1 {
+        text-align: center;
+      }
+      .baris2 {
+        text-align: left;
+      }
+      .baris3 {
+        height: 50px;
+        vertical-align: top;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>The text-align Property</h2>
+
+    <p>
+      This property sets the horizontal alignment (like left, right, or center)
+      of the content in th or td.
+    </p>
+
+    <table>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td class="baris1">Peter</td>
+        <td class="baris1">Griffin</td>
+        <td class="baris1">$100</td>
+      </tr>
+      <tr>
+        <td class="baris1">Lois</td>
+        <td class="baris1">Griffin</td>
+        <td class="baris1">$150</td>
+      </tr>
+      <tr>
+        <td class="baris1">Joe</td>
+        <td class="baris1">Swanson</td>
+        <td class="baris1">$300</td>
+      </tr>
+      <tr>
+        <td class="baris1">Cleveland</td>
+        <td class="baris1">Brown</td>
+        <td class="baris1">$250</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <table>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td class="baris2">Peter</td>
+        <td class="baris2">Griffin</td>
+        <td class="baris2">$100</td>
+      </tr>
+      <tr>
+        <td class="baris2">Lois</td>
+        <td class="baris2">Griffin</td>
+        <td class="baris2">$150</td>
+      </tr>
+      <tr>
+        <td class="baris2">Joe</td>
+        <td class="baris2">Swanson</td>
+        <td class="baris2">$300</td>
+      </tr>
+      <tr>
+        <td class="baris2">Cleveland</td>
+        <td class="baris2">Brown</td>
+        <td class="baris2">$250</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <table>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td class="baris3">Peter</td>
+        <td class="baris3">Griffin</td>
+        <td class="baris3">$100</td>
+      </tr>
+      <tr>
+        <td class="baris3">Lois</td>
+        <td class="baris3">Griffin</td>
+        <td class="baris3">$150</td>
+      </tr>
+      <tr>
+        <td class="baris3">Joe</td>
+        <td class="baris3">Swanson</td>
+        <td class="baris3">$300</td>
+      </tr>
+      <tr>
+        <td class="baris3">Cleveland</td>
+        <td class="baris3">Brown</td>
+        <td class="baris3">$250</td>
+      </tr>
+    </table>
+  </body>
+</html>
+<!-- task 1 -->
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+      <title>Buyphone|Menjual Smartphone Original</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div style="background-color:black;text-align:center;">
+            <h1 style="color:white;">IPHONE</h1>
+        </div>
+        <h1 style="text-transform:uppercase;font-family:calibri;">Spesifikasi Iphone 11 <span style="color:red;">(Red)</span></h1>
+        <table>
+            <tr>
+                <td rowspan="4"><img src="images/iphone-detail2.png" style="width: 400px;"></td>
+                <th rowspan="4"></th>
+                <th></th>
+                <td></td>
+            </tr>
+            <tr>
+                <th rowspan="3"></th>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+        <div style="background-color:black;width:200px;text-align:center;">
+            <a href="https://www.apple.com/shop/buy-iphone/iphone-11#mn_e" style="color:white;font-size:40px;text-decoration:none;">Beli</a>
+        </div>
+    </body>
+</html> -->
+<!-- task 2 -->
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Buyphone|Menjual Smartphone Original</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div style="background-color:black;text-align:center;">
+            <h1 style="color:white;">IPHONE</h1>
+        </div>
+        <h1 style="text-transform:uppercase;font-family:calibri;">Spesifikasi Iphone 11 <span style="color:red;">(Red)</span></h1>
+        <table style="background-color: #f1f1f1; font-size: 25px;">
+            <tr>
+                <td rowspan="4"><img src="images/iphone-detail2.png" style="width: 400px;"></td>
+                <th rowspan="4"></th>
+                <th></th>
+                <td></td>
+            </tr>
+            <tr>
+                <th rowspan="3"></th>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+        <div style="background-color:black;width:200px;text-align:center;">
+            <a href="https://www.apple.com/shop/buy-iphone/iphone-11#mn_e" style="color:white;font-size:40px;text-decoration:none;">Beli</a>
+        </div>
+    </body>
+</html>
+<!-- task 3 -->
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+      <title>Buyphone|Menjual Smartphone Original</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div style="background-color:black;text-align:center;">
+            <h1 style="color:white;">IPHONE</h1>
+        </div>
+        <h1 style="text-transform:uppercase;font-family:calibri;">Spesifikasi Iphone 11 <span style="color:red;">(Red)</span></h1>
+        <table style="background-color: #f1f1f1; font-size: 25px;">
+            <tr>
+                <td rowspan="4" style="background-color: white;">
+                    <img src="images/iphone-detail2.png" style="width: 400px;">
+                </td>
+                <th rowspan="4"></th>
+                <th></th>
+                <td></td>
+            </tr>
+            <tr>
+                <th rowspan="3"></th>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+        <div style="background-color:black;width:200px;text-align:center;">
+            <a href="https://www.apple.com/shop/buy-iphone/iphone-11#mn_e" style="color:white;font-size:40px;text-decoration:none;">Beli</a>
+        </div>
+    </body>
+</html> -->
+<!-- task 4 -->
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+      <title>Buyphone|Menjual Smartphone Original</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div style="background-color:black;text-align:center;">
+            <h1 style="color:white;">IPHONE</h1>
+        </div>
+        <h1 style="text-transform:uppercase;font-family:calibri;">Spesifikasi Iphone 11 <span style="color:red;">(Red)</span></h1>
+        <table style="background-color: #f1f1f1; font-size: 25px;">
+            <tr>
+                <td rowspan="4" style="background-color: white;">
+                    <img src="images/iphone-detail2.png" style="width: 400px;">
+                </td>
+                <th rowspan="4" style="font-size: 45px; color: red; vertical-align: top;"></th>
+                <th></th>
+                <td></td>
+            </tr>
+            <tr>
+                <th rowspan="3"></th>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+        <div style="background-color:black;width:200px;text-align:center;">
+            <a href="https://www.apple.com/shop/buy-iphone/iphone-11#mn_e" style="color:white;font-size:40px;text-decoration:none;">Beli</a>
+        </div>
+    </body>
+</html> -->
+<!-- task 5 -->
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Buyphone|Menjual Smartphone Original</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div style="background-color: black; text-align: center">
+      <h1 style="color: white">IPHONE</h1>
+    </div>
+    <h1 style="text-transform: uppercase; font-family: calibri">
+      Spesifikasi Iphone 11 <span style="color: red">(Red)</span>
+    </h1>
+    <table style="background-color: #f1f1f1; font-size: 25px">
+      <tr>
+        <td rowspan="4" style="background-color: white">
+          <img src="images/iphone-detail2.png" style="width: 400px" />
+        </td>
+        <th
+          rowspan="4"
+          style="font-size: 45px; color: red; vertical-align: top"
+        ></th>
+        <th style="vertical-align: bottom"></th>
+        <td></td>
+      </tr>
+      <tr>
+        <th rowspan="3" style="vertical-align: bottom"></th>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+    </table>
+    <div style="background-color: black; width: 200px; text-align: center">
+      <a
+        href="https://www.apple.com/shop/buy-iphone/iphone-11#mn_e"
+        style="color: white; font-size: 40px; text-decoration: none"
+        >Beli</a
+      >
+    </div>
+  </body>
+</html> -->

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detail Menu Makanan</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <h1 id="foodMenu">Menu Makanan</h1>
+    <div class="flex">
+        <div class="food-option">
+            <button type="button" id="ramen" onClick="detail('ramen')">Ramen</button>
+            <button type="button" id="pizza" onClick="detail('pizza')">Pizza</button>
+            <button type="button" id="kimchi" onClick="detail('kimchi')">Kimchi</button>
+            <button type="button" id="rendang" onClick="detail('rendang')">Rendang</button>
+        </div>
+        <div class="food-detail">
+            <img id="image" src="images/detail.jpg" alt="Gambar Makanan">
+            <h1 id="foodTitle"></h1>
+            <h2 id="foodOrigin"></h2>
+            <h2 id="foodMaterial"></h2>
+            <h2 id="foodPrice"></h2>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
